@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Chuka Unigwe</title>
+  <meta name="description" content="Get in touch with Chuka Unigwe via email, GitHub, or LinkedIn." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="nav-brand">Chuka<span>.</span>Unigwe</a>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html">Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="theme-toggle" aria-label="Toggle color theme">[ theme ]</button>
+          <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <p class="prompt-line">guest@chuka-unigwe:~$ mail -s "hello" chuka</p>
+        <h1 data-typewriter>Let's connect.</h1>
+        <p class="contact-lead">
+          Whether it's about an internship, a collaboration, or just to say hi —
+          feel free to reach out through any of the channels below.
+        </p>
+
+        <div class="terminal-window reveal">
+          <div class="terminal-titlebar">
+            <span class="terminal-dot dot-red"></span>
+            <span class="terminal-dot dot-yellow"></span>
+            <span class="terminal-dot dot-green"></span>
+            <span class="terminal-titlebar-label">compose.sh</span>
+          </div>
+          <div class="terminal-body">
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-field" id="name-field">
+                <label for="contact-name">Name</label>
+                <input type="text" id="contact-name" name="name" autocomplete="name" aria-describedby="name-error" />
+                <span class="field-error" id="name-error"></span>
+              </div>
+
+              <div class="form-field" id="email-field">
+                <label for="contact-email">Email</label>
+                <input type="email" id="contact-email" name="email" autocomplete="email" aria-describedby="email-error" />
+                <span class="field-error" id="email-error"></span>
+              </div>
+
+              <div class="form-field" id="phone-field">
+                <label for="contact-phone">Phone (digits only)</label>
+                <input type="tel" id="contact-phone" name="phone" autocomplete="tel" aria-describedby="phone-error" />
+                <span class="field-error" id="phone-error"></span>
+              </div>
+
+              <div class="form-field" id="message-field">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" aria-describedby="message-error"></textarea>
+                <span class="field-error" id="message-error"></span>
+              </div>
+
+              <div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+                <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <hr class="contact-divider" />
+
+        <div class="contact-cards">
+          <div class="card contact-card">
+            <h2>Email</h2>
+            <p id="email-value">nerdymax84@gmail.com</p>
+            <div class="contact-actions">
+              <a href="mailto:nerdymax84@gmail.com" class="btn btn-primary">Send Email</a>
+              <button type="button" class="btn btn-outline" id="copy-email-btn" data-email="nerdymax84@gmail.com">
+                Copy Address
+              </button>
+            </div>
+            <p class="copy-feedback" id="copy-feedback" role="status" aria-live="polite"></p>
+          </div>
+
+          <div class="card contact-card">
+            <h2>GitHub</h2>
+            <p>@nerdymaxx</p>
+            <a href="https://github.com/nerdymaxx" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+              github.com/nerdymaxx
+            </a>
+          </div>
+
+          <div class="card contact-card">
+            <h2>LinkedIn</h2>
+            <p>Chuka Unigwe</p>
+            <a href="https://www.linkedin.com/in/chuka-unigwe" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+              linkedin.com/in/chuka-unigwe
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://github.com/nerdymaxx" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/chuka-unigwe" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:nerdymax84@gmail.com">Email</a>
+      </div>
+      <p>&copy; 2026 Chuka Unigwe. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/theme.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/reveal.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/typewriter.js"></script>
+</body>
+</html>

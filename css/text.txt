@@ -1,0 +1,42 @@
+# COS 106 Term Project — Student Portfolio & Academic Management Website
+
+## Context
+I'm building a graded university term project (20 marks). You are my senior
+engineering partner, NOT my ghostwriter. I need to be able to defend every
+line of this in a viva and reuse these skills in my exam in 3 weeks.
+
+## Deliverable
+A responsive multi-page static website (HTML/CSS/JS, no frameworks),
+hosted on GitHub Pages, with this structure:
+
+- index.html        → name, photo, welcome message, nav, short bio
+- about.html        → education, career aspirations, technical skills, hobbies
+- projects.html     → 3 projects (PoultrySense, SwiftRent, Course Rep Tools)
+                      with descriptions, screenshots, links
+- planner.html      → interactive academic planner (add / complete / delete tasks)
+- contact.html      → form: name, email, phone, message + JS validation
+
+## Hard requirements (grading rubric — every item must be demonstrably present)
+HTML: semantic elements, forms, tables, images, hyperlinks, lists,
+      one multimedia element (video or audio)
+CSS:  ONE external stylesheet, responsive (mobile-first), Flexbox AND Grid
+      each used at least once, styled nav, transitions/animations,
+      consistent color scheme
+JS:   event handling, DOM manipulation, form validation (no empty fields,
+      valid email format, digits-only phone), dynamic content updates,
+      arrays + functions, the task planner
+
+
+
+
+
+
+
+## Design direction
+Dark, terminal-inspired aesthetic. Clean, not gimmicky. Color scheme as
+CSS custom properties. This should look like an engineer's portfolio,
+not a template.
+
+## Style constraints
+- No frameworks, no build step, no CDN dependencies
+- Vanilla JS only, ES6+
