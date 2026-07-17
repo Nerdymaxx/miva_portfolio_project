@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
     emptyState.classList.toggle("visible", filtered.length === 0);
     emptyState.textContent =
       tasks.length === 0
-        ? "No tasks yet — add your first one above."
+        ? "No tasks yet - add your first one above."
         : "No tasks match this filter.";
   }
 

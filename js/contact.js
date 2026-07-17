@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!stripped) return "Please enter your phone number.";
         return /^\d{7,15}$/.test(stripped)
           ? ""
-          : "Digits only, please (7-15 digits — spaces/dashes are fine).";
+          : "Digits only, please (7-15 digits - spaces/dashes are fine).";
       },
     },
     message: {
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const subject = encodeURIComponent(`Portfolio contact from ${name}`);
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\n${message}`);
 
-    status.textContent = "Looks good — opening your email client to send this message…";
+    status.textContent = "Looks good - opening your email client to send this message…";
     status.className = "form-status success";
     window.location.href = `mailto:nerdymax84@gmail.com?subject=${subject}&body=${body}`;
   });

@@ -1,4 +1,4 @@
-# COS 106 Term Project — Student Portfolio & Academic Management Website
+# COS 106 Term Project - Student Portfolio & Academic Management Website
 
 ## Context
 I'm building a graded university term project (20 marks). You are my senior
@@ -16,7 +16,7 @@ hosted on GitHub Pages, with this structure:
 - planner.html      → interactive academic planner (add / complete / delete tasks)
 - contact.html      → form: name, email, phone, message + JS validation
 
-## Hard requirements (grading rubric — every item must be demonstrably present)
+## Hard requirements (grading rubric - every item must be demonstrably present)
 HTML: semantic elements, forms, tables, images, hyperlinks, lists,
       one multimedia element (video or audio)
 CSS:  ONE external stylesheet, responsive (mobile-first), Flexbox AND Grid
